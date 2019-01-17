@@ -5,7 +5,6 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-/** HEADER **/
 #header-nav {
   background-color: #181e21;
   border-radius: 0;
@@ -62,9 +61,8 @@ body {
   clear: both;
   margin-top: 10px;
 }
-/* END HEADER */
 
-/* Text */
+
 #paragraph{
 	text-align: center
 }
