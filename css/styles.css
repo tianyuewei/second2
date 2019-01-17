@@ -1,0 +1,159 @@
+body {
+  font-size: 16px;
+  color: #282828;
+  background-color: #e6eaef;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #181e21;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand {
+	padding-top: 15px
+}
+
+.navbar-brand h1 {
+	font-family: 'Staatliches', cursive;
+	font-size: 4em;
+	text-transform: uppercase;
+  text-align: left;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+	color: #a52006
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 20px;
+  color: #181e21;
+}
+#nav-list a {
+  color: #a52006;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#nav-list a: hover {
+  background: #e6eaef;
+}
+#nav-list a span {
+  font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+/* END HEADER */
+
+/* Text */
+#paragraph{
+	text-align: center
+}
+
+#box1{
+	background-color: white;
+  	padding: 10px;
+  	border: 5px solid #a52006;
+  	height: 290px;
+	margin-left: 40px;
+	margin-right: 40px;
+  	margin-top: 40px;
+  	margin-bottom: 40px;
+  	float: center;
+  	box-sizing: border-box;
+	overflow: scroll
+}
+#box2 {
+	background-color: white;
+  	padding: 10px;
+  	border: 5px solid #a52006;
+  	margin-left: 40px;
+	margin-right: 40px;
+  	height: 290px;
+  	margin-top: 40px;
+  	margin-bottom: 40px;
+  	float: center;
+  	box-sizing: border-box;
+	overflow: scroll
+}
+#box3 {
+	background-color: white;
+  	padding: 10px;
+  	border: 5px solid #a52006;
+  	height: 290px;
+	margin-left: 40px;
+	margin-right: 40px;
+  	margin-top: 40px;
+  	margin-bottom: 40px;
+  	float: center;
+  	box-sizing: border-box;
+	overflow: scroll
+}
+
+	
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ .navbar-brand h1 {
+  font-size: 5em;
+ }
+	#nav-list {visibility: hidden}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#nav-list {visibility: hidden}
+}
+	
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1 {
+		font-size: 4em;
+	}
+	#nav-list {visibility: hidden}
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 30px;
+    font-size: 10vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
